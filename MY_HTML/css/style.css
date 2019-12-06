@@ -1,0 +1,45 @@
+ 
+
+
+ /*main_nav*/
+ .main_nav{background-color: aqua; height: 60px; width: 100%;}
+ .main_nav .container {padding: 13px;}
+ .main_nav .container .menu_navbar { background-color: #fed136; color:#fff; border: 0; font-size: 12pt;  padding:12px; border-radius: 5px; float: right;}
+ .main_nav .container .site_name { text-decoration:none; color:black; font-weight: bold; font-size: 20pt;  }
+ .main_nav .container .navbar_info { height: 40px; width:400px;float:right; margin-right: 20px; }
+ .main_nav .container .navbar_info .navbar_menu_four{list-style: none;  float: right; }
+ .main_nav .container .navbar_info .navbar_menu_four li {display: inline; margin-right: 10px;}
+ .main_nav .container .navbar_info .navbar_menu_four a {text-decoration:none; color:black;}
+ 
+ 
+ 
+ 
+ 
+ /* PC */
+  .wrap{width:1200px;  margin:0 auto;}
+  .wrap .center{ overflow: hidden;background-color: purple; height: 800px; width:100%;  }
+  .wrap .Project{ background-color:royalblue;  height: 450px;float:left; width:50%;   }
+  .wrap .Career{ background-color: yellow; height: 450px; float:left;  width:50%;  }
+  .wrap .SNS {background-color: black; height: 200px;width:100%; float:left}
+@media (min-width:901px) { 
+  body {background-color : orange;}
+}
+@media (min-width:701px) and ( max-width: 900px){/* 노트북 */
+  body {background-color : blue;}
+  .wrap{width:100%;  margin: auto;}
+}
+@media (min-width:501px) and ( max-width: 700px){/* 태블릿 */
+  body {background-color : green;}
+  .wrap{width:100%;  margin: auto;}
+  .wrap .Project{ background-color:royalblue;  height: 500px;float:left; width:50%;   }
+  .wrap .Career{ background-color: yellow; height: 500px; float:left;  width:50%;  }
+  .wrap .SNS {background-color: black; height: 250px;width:100%;}
+}
+@media (min-width: 0px) and (max-width:500px){/* 핸드폰 */
+  body {background-color : red;}
+  .wrap {width:100%; }
+  .wrap .Project{ background-color:royalblue;  height: 500px;  clear:both; width:100%;  }
+  .wrap .Career{ background-color: yellow; height: 500px;  clear:both;width:100%;  }
+  .wrap .SNS {background-color: black; height: 250px;clear:both; }
+  /* clear:both == float:none; */
+}
