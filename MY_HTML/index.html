@@ -2,9 +2,17 @@
 <html>
     <head>
         <title>MIRIMHEE</title>
-
+      
         <link href="css/style.css" rel="stylesheet">
-
+        <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+            $(".menu_navbar ul.menu_sub").hide();
+            $(".menu_navbar ul.menu li").click(function(){
+                $("ul",this).slideToggle("fast");
+            });
+        });
+        </script>
     </head>
     <body id="page_top">
         <div class="wrap">
@@ -12,7 +20,17 @@
                 <nav class="main_nav">
                     <div class="container">
                         <a class="site_name" href="#page_top">이거 이름임</a>
-                        <button class="menu_navbar">menu</button>
+                        <div class="menu_navbar">
+                            <ul class="menu">
+                                <li><a href="#">MENU</a>
+                                    <ul class="menu_sub">
+                                        <li><a href="#">프로젝트</a></li>
+                                        <li><a href="#">경력</a></li>
+                                        <li><a href="#">SNS</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
                         <div class="navbar_info">
                             <ul class="navbar_menu_four">
                                 <li><a class="nav_wrap" href="#wrap">메인 정보</a></li>
@@ -24,7 +42,7 @@
                     </div> 
                 </nav> 
             </div>
-            <div class="Project"></div>
+            <div class="Project" ></div>
             <div class="Career"></div>
             <div class="SNS"></div>
         </div>
