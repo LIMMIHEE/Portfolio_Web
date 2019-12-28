@@ -51,7 +51,7 @@
 
 
 
-
+/* 메뉴  */
 .menu_navbar { font-family:'arial'; width:130px;height: 20px;}
 .menu_navbar ul{ width:100%; margin:0; padding:0px; }
 .menu_navbar ul.menu li{ position:relative; float:left; width:100%; list-style-type:none; font-size:18px;}
@@ -59,3 +59,24 @@
 .menu_navbar ul.menu li a:hover{ background:#eee; }
 .menu_navbar ul.menu li .menu_sub a{ line-height:40px; font-size:14px;position:relative; float:left; display:block; width:-10px; z-index:999; background:rgba(253, 255, 133, 0.719); }
 .menu_navbar ul.menu li .menu_sub a:hover{ background:rgba(68, 68, 68, 0.459); color:#fff; }
+
+
+.Project .indicators .indicator-item {
+  background-color: #666666;
+  border: 3px solid #ffffff;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.Project .indicators .indicator-item.active {
+  background-color: #ffffff;
+}
+.Project {
+  width: 100%;
+  margin: 0 auto;
+}
+.Project .indicators {
+  bottom: 60px;
+  z-index: 100;
+  /* text-align: left; */
+}
