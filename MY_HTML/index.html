@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>MIRIMHEE</title>
-      
+        
         <link href="css/style.css" rel="stylesheet">
         <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
         <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
@@ -13,31 +13,7 @@
                 $("ul",this).slideToggle("fast");
             });
         });
-        $(document).ready(function(){
-            $('.slider').slider();
-        });
-/*
-       // imgslide();
-        function imgslide(){
-            $val = $(".bxslider").attr("val");
-            $mx = $(".bxslider").attr("mx");
-            $("#img"+$val).hide();
-            if($val == $mx){$val =1;}
-            else {$val++;}
-            $("#img"+$val).fadeIn(500);
-            $(".bxslider").attr('val',$val);
-            setTimeout('imgslide()',4000);
-        }
 
-
-<ul class="bxslider" val="1" mx="3">
-                    <li><a href="#"><img src="img/slide-1.jpg" alt="" title="이미지1"></a></li>
-                    <li><a href="#"><img src="img/slide-2.jpg" alt="" title="이미지2"></a></li>
-                    <li><a href="#"><img src="img/slide-3.jpg" alt="" title="이미지1"></a></li>
-                </ul>
-
-
-        */
         </script>
         
     </head>
@@ -70,30 +46,21 @@
                 </nav> 
             </div>
             <div class="Project" >
-                <ul class="slides">
-                    <li>
-                      <img src="img/slide-1.jpg"> 
-                      <div class="caption center-align">
-                        <h3>This is our big Tagline!</h3>
-                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                      </div>
-                    </li>
-                    <li>
-                      <img src="img/slide-2.jpg"> 
-                      <div class="caption left-align">
-                        <h3>Left Aligned Caption</h3>
-                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                      </div>
-                    </li>
-                    <li>
-                      <img src="img/slide-3.jpg"> <!--  image -->
-                      <div class="caption right-align">
-                        <h3>Right Aligned Caption</h3>
-                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                      </div>
-                    </li>
-                  </ul>
-                
+                <span id="Silder-image-1"></span>
+                <span id="Silder-image-2"></span>
+                <span id="Silder-image-3"></span>
+
+                <div class="img-continer">
+                    <img src="img/slide-1.jpg" class="Silder-img"style="max-height: 100%; width: auto;">
+                    <img src="img/slide-2.jpg" class="Silder-img"style="max-height: 100%; width: auto;">
+                    <img src="img/slide-3.jpg" class="Silder-img"style="max-height: 100%; width: auto;">
+                   
+                </div>
+                <div class="button-imgSilder">
+                    <a href="#Silder-image-1" class="Silder-button"></a>
+                    <a href="#Silder-image-2" class="Silder-button"></a>
+                    <a href="#Silder-image-3" class="Silder-button"></a>
+                </div>
             </div>
             <div class="Career"></div>
             <div class="SNS"></div>
