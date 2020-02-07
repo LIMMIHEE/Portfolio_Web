@@ -1,16 +1,15 @@
 
-
-
- /*main_nav*/
 body{
   font-family: 'Nanum Gothic', sans-serif;
 }
- .main_nav{background-color: aqua; height: 60px; width: 100%; }
+ /*main_nav*/
+
+ .main_nav{background-color: rgb(204, 204, 204); height: 60px; width: 100%; }
  .main_nav .container {padding: 13px;}
- .main_nav .container .menu_navbar { background-color: #fed136; color:#fff; border: 0; font-size: 12pt;  padding:12px; border-radius: 5px; float: right;}
+ .main_nav .container .menu_navbar { background-color: #ffffff; color:#fff; border: 0; font-size: 12pt;  padding:8px; border-radius: 5px; float: right;}
  .main_nav .container .site_name { text-decoration:none; color:black; font-weight: bold; font-size: 20pt;  }
  .main_nav .container .navbar_info { height: 40px; width:400px;float:right; margin-right: 20px; }
- .main_nav .container .navbar_info .navbar_menu_four{list-style: none;  float: right; }
+ .main_nav .container .navbar_info .navbar_menu_four{list-style: none;  float: right; margin:0;padding-top: 8px;}
  .main_nav .container .navbar_info .navbar_menu_four li {display: inline; margin-right: 10px;}
  .main_nav .container .navbar_info .navbar_menu_four a {text-decoration:none; color:black;}
  
@@ -27,7 +26,7 @@ body{
   
 @media (min-width:901px) { 
   .menu_navbar {display: none;}
-  body {background-color : orange;}
+
 }
 @media (min-width:701px) and ( max-width: 900px){/* 노트북 */
   body {background-color : blue;}
@@ -59,7 +58,7 @@ body{
 .menu_navbar ul{ width:100%; margin:0; padding:0px; }
 .menu_navbar ul.menu li{ position:relative; float:left; width:100%; list-style-type:none; font-size:18px;}
 .menu_navbar ul.menu li a{ display:block; width:100%; height:100%; line-height:23px; text-indent:42px; color:#000; font-weight:bold; text-decoration:none; }
-.menu_navbar ul.menu li a:hover{ background:#eee; }
+.menu_navbar ul.menu li a:hover{ background:rgba(238, 238, 238, 0.5); }
 .menu_navbar ul.menu li .menu_sub a{ line-height:40px; font-size:14px;position:relative; float:left; display:block; width:-10px; z-index:999; background:rgba(253, 255, 133, 0.719); }
 .menu_navbar ul.menu li .menu_sub a:hover{ background:rgba(68, 68, 68, 0.459); color:#fff; }
 
@@ -79,7 +78,7 @@ body{
 
 /*  SNS  */
 .SNS img{
-  height: 65px; width: auto;margin-left: auto; margin-right: auto; display: block;
+  height: 65px; width: auto;margin-left: auto; margin-right: auto; padding-top: 60px;
 }
 
 /*center*/
