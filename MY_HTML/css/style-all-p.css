@@ -1,0 +1,47 @@
+
+body{ background-color: grey; margin: 50px;}
+
+.wrap{width:1200px;  margin:0 auto; }
+@media (min-width:901px) { 
+  
+  }
+  @media (min-width:701px) and ( max-width: 900px){/* 노트북 */
+    body {background-color : blue;}
+    .wrap{width:100%;  margin: auto; }
+  }
+  @media (min-width:501px) and ( max-width: 700px){/* 태블릿 */
+    body {background-color : green;}
+    .wrap{width:100%;  margin: auto;}
+    
+  }
+  @media (min-width: 0px) and (max-width:500px){/* 핸드폰 */
+    body {background-color : red;}
+    .wrap {width:100%; }
+    
+    /* clear:both == float:none; */
+  }
+
+
+
+.box{background-color: honeydew; 
+    margin-bottom: 30px; 
+    padding: 20px;
+    border-radius: 20px 20px 20px 20px; 
+    text-align: center;
+}
+.Language-Name{
+    background-color: ivory;
+    padding: 20px;
+    
+}
+.Language-Box{
+    margin-top: 120px;
+}
+.img-css{
+    max-width: 100%; height: auto;
+}
+.border-hr{
+    height: 3px;
+    background-color: white;
+    margin-bottom: 20px;
+}
