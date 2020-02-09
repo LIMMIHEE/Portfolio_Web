@@ -1,7 +1,12 @@
 
-body{ background-color: grey; margin: 50px;}
+body{ background-color: grey; margin: 50px;font-family: 'Nanum Gothic', sans-serif;}
 
-.wrap{width:1200px;  margin:0 auto; }
+.wrap{ position: relative; width:1200px;  margin:0 auto;  background-color: white;}
+.container{padding: 15px;}
+
+#back{position: absolute; padding: 15px; font-size: 20pt; text-decoration: none; color: black; font-weight: bold;}
+
+
 @media (min-width:901px) { 
   
   }
@@ -21,16 +26,22 @@ body{ background-color: grey; margin: 50px;}
     /* clear:both == float:none; */
   }
 
+p{color: white;}
+#Pro_name{
+  font-size: 16pt; font-weight: bold;
+}
+#Pro_team_or{
+  font-style: italic;
+}
 
-
-.box{background-color: honeydew; 
+.box{background-color: rgb(65, 65, 65); 
     margin-bottom: 30px; 
     padding: 20px;
     border-radius: 20px 20px 20px 20px; 
     text-align: center;
 }
 .Language-Name{
-    background-color: ivory;
+    background-color: rgb(226, 226, 226);
     padding: 20px;
     
 }
@@ -42,6 +53,14 @@ body{ background-color: grey; margin: 50px;}
 }
 .border-hr{
     height: 3px;
-    background-color: white;
+    background-color: rgb(71, 71, 71);
     margin-bottom: 20px;
+}
+#More_infoma{    width: 175px;  height: 55px;  font-size: 14pt;  border-radius: 13px 13px 13px 13px;background-color: rgb(255, 255, 255);}
+#More_infoma :hover{ color:rgba(214, 39, 39, 0.733); }
+#More_infoma i{
+  color:rgba(53, 53, 53, 0.733);
+  line-height: 55px;
+  vertical-align: middle;
+  font-size: 30pt;
 }
