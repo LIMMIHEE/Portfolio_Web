@@ -4,9 +4,8 @@
         <title>MIRIMHEE</title>
         <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-        <script type="text/javascript" src="script.js"></script>
+        <script type="text/javascript" src="../MY_HTML/css/script.js"></script>
         <link href="css/style.css" rel="stylesheet">
-        <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
         <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
         <script type="text/javascript">
             $(document).ready(function(){
@@ -83,18 +82,18 @@
                    
                 </div>
                 <div class="button-imgSilder">
-                    <a href="#Silder-image-1" class="Silder-button"></a>
-                    <a href="#Silder-image-2" class="Silder-button"></a>
-                    <a href="#Silder-image-3" class="Silder-button"></a>
+                    <a href="#Silder-image-1" class="Silder-button" onclick="Main_info_num_change(0)"></a>
+                    <a href="#Silder-image-2" class="Silder-button" onclick="Main_info_num_change(1)"></a>
+                    <a href="#Silder-image-3" class="Silder-button" onclick="Main_info_num_change(2)"></a>
                 </div>
             </div>
             <div class="Career">
                 <center>
-                <p style="font-weight: bold;font-size: 20pt; color:white;">프로젝트 이름</p>
+                <p id="pro-name" style="font-weight: bold;font-size: 20pt; color:white;">프로젝트 이름</p>
 
-                <p  style="font-style: italic; font-size: 11pt;color:rgb(223, 223, 223);">어떤 언어로 만들었는가  /   팀인가 개인인가</p>
+                <p id="pro-team" style="font-style: italic; font-size: 11pt;color:rgb(223, 223, 223);">어떤 언어로 만들었는가  /   팀인가 개인인가</p>
 
-                <p style="font-size: 13.5pt;color:white;">어떤 프로그램인가</p>
+                <p id="pro-sinfo" style="font-size: 13.5pt;color:white;">어떤 프로그램인가</p>
 
                 <p style="font-size: 9.5pt; color: rgb(204, 204, 204,0.5);margin-top:60px;"> 내용 더 보러가기.</p>
                 <a href="#" style="text-decoration: none;"><div id="More_infoma"><i class="fa fa-plus" aria-hidden="true"></i></div></a>
